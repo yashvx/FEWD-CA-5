@@ -1,0 +1,177 @@
+/* App.css */
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  position: relative; /* Make the parent container relative */
+  width: 700px; /* Set the width according to your design */
+  height: 20px;
+  background-color: white; /* Set the background color to white */
+  border: 1px solid #ccc; /* Add a border for visibility */
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a grey shadow */
+  margin-top: 20px; /* Adjust top margin as needed */
+  margin-left: 10%;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.search-button {
+  background-color: #ccc;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 9px;
+  position: absolute; /* Position absolute within the relative container */
+  left: 100%; /* Align to the right edge of the parent container */
+  margin-left: 8px; /* Add some margin for separation */
+}
+
+/* logo and kalvium books */
+.kalvi-name{
+  color: red;
+  font-weight: 900;
+  position: absolute;
+  top:2px;
+  left: 60px;
+}
+.books-name{
+  color: black;
+  position: absolute;
+  top:2px;
+  left: 160px;
+}
+
+.kalvi-logo{
+  position: absolute;
+  top: 20px;
+  left: 1em;
+}
+
+.register-head{
+  margin-top: 60px;
+  font-style:oblique;
+  margin-left: 40%;
+  
+}
+
+.name{
+  font-weight: bolder;
+  /* position: absolute; */
+  top: 30%;
+  color: grey;
+  margin-left: 45%;
+ 
+}
+
+label{
+  display:block;
+}
+
+.name-input{
+ /* position: absolute; */
+ 
+  width: 300px;
+  /* background-color: beige; */
+  height: 20px;
+  border-radius: 2px;
+  border-color: orange;
+  margin-left: 30%;
+  margin-bottom: 20px;
+
+}
+
+.email{
+  /* position: absolute; */
+  top: 35%;
+  font-weight: bolder;
+  color: grey;
+  margin-left: 45%;
+  
+
+}
+.email-input{
+  width: 300px;
+  /* background-color: beige; */
+  height: 20px;
+  border-radius: 2px;
+  border-color: orange;
+  box-shadow: 20px 20px solid black;
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
+
+.password{
+  /* position: absolute  ; */
+  top: 40%;
+  font-weight: bolder;
+  color: grey;
+  margin-left: 45%;
+}
+.password-input{
+  width: 300px;
+  /* background-color: beige; */
+  height: 20px;
+  border-radius: 2px;
+  display: block;
+border-color: orange;
+margin-left: 30%;
+margin-bottom: 20px;
+}
+
+
+.repeat-password{
+  /* position: absolute; */
+  top: 45%;
+  font-weight: bolder;
+  color:grey;
+  margin-left: 42%;
+}
+.rpt-pswrd-input{
+  width: 300px;
+  /* background-color: beige; */
+  height: 20px;
+  border-radius: 2px;
+  border-color: orange;
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
+
+.sign-up{
+  /* position: absolute; */
+  top: 50%;
+  font-weight: bolder;
+  display: block;
+  /* background-color: rgb(233, 194, 121); */
+  border-color:orange ;
+  margin-top: 30px;
+  margin-left: 45%;
+}
+
+.register-btn{
+  position: absolute;
+  right: 10%;
+  top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color:rgb(255, 47, 47) ;
+  font-weight: 300;
+  color: white;
+  border:2px white;
+  border-radius: 20px;
+}
